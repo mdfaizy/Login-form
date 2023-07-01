@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1>
+          Registration
+        </h1>
+        <form action="" id="file" onsubmit="validate()">
+          <div class="form_container">
+            <div class="form_control">
+              <label for="student_name"> Student Name </label>
+              <input
+              required
+                id="student_name"
+                name="student_name"
+                placeholder="Enter Student Name..."
+              />
+            </div>
+            <div class="form_control">
+              <label for="father_name"> Father Name </label>
+              <input
+                id="father_name"
+                name="father_name"
+                placeholder="Enter father Name..."
+              />
+            </div>
+            <div class="form_control">
+              <label for="mother_name"> Mother Name </label>
+              <input
+              required
+                id="mother_name"
+                name="mother_name"
+                placeholder="Enter mother Name..."
+              />
+            </div>
+            <div class="form_control">
+              <label for="email"> Date of Birth </label>
+              <input
+              value="date"
+                type="date"
+                id="date"
+                name="date"
+                required
+              />
+            </div>
+            <div class="form_control">
+              <label for="email"> Email </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Email..."
+                required
+              />
+            </div>
+            <div class="form_control">
+              <label for="wbjee_rank"> Wbjee Rank</label>
+              <input
+                type="number"
+                id="rank"
+                name="wbjee_rank"
+                placeholder="Enter Wbjee Rank Score..."
+                required
+              />
+            </div>
+            <div class="form_control">
+              <label for="jelet_rank"> Jelet Rank</label>
+              <input
+                type="number"
+                id="rank"
+                name="jelet_rank"
+                required
+                placeholder="Enter Jelet Rank Score..."
+              />
+            </div>
+            <div class="form_control">
+              <label for="Select_stream">Select Stream</label>
+              <input
+                type="Select_stream"
+                id="Stream"
+                name="Stream"
+                required
+                placeholder="Enter Select Stream..."
+              />
+            </div>
+            <div class="form_control">
+              <label for="Application_no">Application No</label>
+              <input
+                type="Application_no"
+                id="Application_no"
+                name="Application_no"
+                required
+                placeholder="Enter Application No..."
+              />
+            </div>
+
+            <div class="form_control">
+              <label for="email"> Phone No </label>
+              <input
+                type="phone"
+                id="phone"
+                name="phone"
+                required
+                placeholder="Enter Phone No..."
+              />
+            </div>
+            <div class="textarea_control">
+              <label for="address"> Address </label>
+              <textarea
+                id="address"
+                name="address"
+                row="4"
+                cols="50"
+                required
+                placeholder="Enter Address"
+              ></textarea>
+            </div>
+            <div class="form_control">
+              <label for="Domicile"> Domicile </label>
+              <input id="Domicile" name="Domicile" placeholder="Enter Domicile Name..." />
+            </div>
+            <div class="form_control">
+              <label for="State"> State </label>
+              <input id="State" 
+              name="State" 
+              required 
+              placeholder="Enter State Name..." 
+              />
+            </div>
+            <div class="form_control">
+              <label for="pincode"> Pincode </label>
+              <input
+                type="number"
+                id="pincode"
+                name="pincode"
+                required
+                placeholder="Enter Pincode Name..."
+              />
+            </div>
+            <div class="hsc">
+              <span class="title"> Higher Secondary</span>
+            </div>
+ 
+              <div class="form_control">
+                <label for="first_name"> Schoole Name </label>
+                <input
+                  id="schoole_name"
+                  name="schoole_name"
+                  required
+                  placeholder="Enter Schoole Name..."
+                />
+              </div>
+              <div class="form_control">
+                <label for="first_name"> Roll No </label>
+                <input
+                  id="roll_no"
+                  name="roll_no"
+                  required
+                  placeholder="Enter Roll No..."
+                />
+              </div> <div class="form_control">
+                <label for="first_name"> Regisration No </label>
+                <input
+                  id=" Regisration_No"
+                  name=" Regisration_No"
+                  required
+                  placeholder="Enter  Regisration No..."
+                />
+              </div>
+              <div class="form_control">
+                <label for="first_name"> Board Name </label>
+                <input
+                  id="board_name"
+                  name="board_name"
+                  required
+                  placeholder="Enter Board Name..."
+                />
+              </div>
+              <div class="form_control">
+                <label for="first_name"> Year of Passing </label>
+                <input
+                  id="Year of Passing"
+                  name="Year of Passing"
+                  required
+                  placeholder="Enter Year of Passing..."
+                />
+              </div>
+
+              <div class="form_control">
+                <label for="first_name"> Persentage </label>
+                <input
+                  id="Persentage"
+                  name="Persentage"
+                  required
+                  placeholder="Enter Persentage..."
+                />
+              </div>
+              <div class="hsc">
+                <span class="title">Secondary School</span>
+              </div>
+   
+                <div class="form_control">
+                  <label for="first_name"> Schoole Name </label>
+                  <input
+                    id="schoole_name"
+                    name="schoole_name"
+                    required
+                    placeholder="Enter Schoole Name..."
+                  />
+                </div>
+                <div class="form_control">
+                  <label for="first_name"> Roll No </label>
+                  <input
+                    id="roll_no"
+                    name="roll_no"
+                    required
+                    placeholder="Enter Roll No..."
+                  />
+                </div> <div class="form_control">
+                  <label for="first_name"> Regisration No </label>
+                  <input
+                    id=" Regisration_No"
+                    name=" Regisration_No"
+                    required
+                    placeholder="Enter  Regisration No..."
+                  />
+                </div>
+                <div class="form_control">
+                  <label for="first_name"> Board Name </label>
+                  <input
+                    id="board_name"
+                    name="board_name"
+                    required
+                    placeholder="Enter Board Name..."
+                  />
+                </div>
+                <div class="form_control">
+                  <label for="first_name"> Year of Passing </label>
+                  <input
+                    id="Year of Passing"
+                    name="Year of Passing"
+                    required
+                    placeholder="Enter Year of Passing..."
+                  />
+                </div>
+  
+                <div class="form_control">
+                  <label for="first_name"> Persentage </label>
+                  <input
+                    id="Persentage"
+                    name="Persentage"
+                    required
+                    placeholder="Enter Persentage..."
+                  />
+                </div>
+
+          <div class="sumbit">
+            <span>Sumbit Document</span>
+          </div>
+ 
+          <div class="form_control">
+            <label for="upload"> Upload Your 12th Marksheet </label>
+            <input type="file" id="upload"required  name="upload" />
+          </div>
+          <div class="form_control">
+            <label for="upload"> Upload Your 10th Marksheet </label>
+            <input type="file" id="upload" name="upload" required/>
+          </div>
+          <div class="form_control">
+            <label for="upload"> Upload Your Residence Certificate </label>
+            <input type="file" id="upload" name="upload" required />
+          </div>
+          <div class="form_control">
+            <label for="upload"> Upload Your Aadhaar Card </label>
+            <input type="file" id="upload" name="upload" required/>
+          </div>
+          <div class="form_control">
+            <label for="upload"> Upload Your Wbjee Jelet Admit Card </label>
+            <input type="file" id="upload" name="upload" required/>
+          </div>
+          <div class="form_control">
+            <label for="upload"> Upload Your Wbjee Admit Card </label>
+            <input type="file" id="upload" name="upload" required/>
+          </div>
+          <div class="form_control">
+            <label for="upload"> Upload Your Wbjee Rank </label>
+            <input type="file" id="upload" name="upload" required/>
+          </div>
+          <div class="form_control">
+            <label for="upload"> Upload Your Wbjee Jelet  Rank </label>
+            <input type="file" id="upload" name="upload" required/>
+          </div>
+          <div class="form_control">
+            <label for="upload"> Upload Your Passport Photo Sizes </label>
+            <input type="file" id="upload" name="upload" required/>
+          </div>
+          <div class="form_control">
+            <label for="upload"> Upload Yourstudent Signature or Thumb </label>
+            <input type="file" id="upload" name="upload" required/>
+          </div>
+          </div>
+          <div class="button_container">
+            <button type="submit" id="sumbit" onclick = "fun()">Sumbit</button>
+          </div>
+        </form>
+        
+      </div>
+
+
+    </div>
+  </body>
+</html>
